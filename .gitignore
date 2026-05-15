@@ -5,3 +5,6 @@
 *.swo
 *~
 Thumbs.db
+
+# Private research folder — not part of the public submission
+learnings/

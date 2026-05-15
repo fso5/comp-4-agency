@@ -225,6 +225,19 @@ The system is shippable as-is. These would add polish, not load-bearing structur
 
 ---
 
-## Credits
+## Methodology and attribution
 
-Built for the Clief Notes Weekly Competition #4 (May 2026). Architecture in the lineage of Interpretable Context Methodology (ICM) — folder-as-system, specialists-as-files, handoffs-as-data.
+This system is built on **Interpretable Context Methodology (ICM)** — the approach that replaces multi-agent frameworks with filesystem structure. Numbered folders are stages; plain markdown files carry the prompts and context that tell a single agent what role to play at each step. The Case File pattern (one shared object flowing through specialists) and the structured Handoff Packet format are this build's specific implementation of ICM at scale.
+
+References:
+- **Van Clief, J. & McDermott, D. (2026).** *Interpretable Context Methodology: Folder Structure as Agentic Architecture.* arXiv:2603.16021.
+- **ICM Handoff Protocol** — community-shared pattern layer for chaining stateless worker sessions: `github.com/PUSHINGSQUARES/icm-handoff-protocol`.
+
+This workspace expresses the full L0–L4 context hierarchy from the paper:
+- **L0** — `CLAUDE.md` (workspace identity)
+- **L1** — `README.md` + `00_orchestrator/identity.md` (task routing)
+- **L2** — each specialist's `identity.md` + `rules.md` + `examples.md` + `handoff.md` (per-stage contract)
+- **L3** — `_shared/*` (reference material; stable across runs — the "factory")
+- **L4** — `_cases/<case_id>/*` (working artifacts; per-run)
+
+Built for the Clief Notes Weekly Competition #4 (May 2026).
