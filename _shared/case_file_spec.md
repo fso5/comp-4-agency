@@ -30,6 +30,8 @@ Examples:
 
 If a case starts as `unknown` and gets clarified, **rename the folder** and update the `case_id` in `case.md`. Yes, this is a hassle. It's worth it because Diana can scan `_cases/` and immediately see what's going on.
 
+**When you have a first name but not a last name** (common with Instagram DMs and short web inquiries): use the first name in the `lastname` slot rather than `unknown`. So `@sara_mc_austin` becomes `2026-05-14-sara-buyer/`. If a social handle is the only identifier and the first name isn't clear, use a sanitized version of the handle: `2026-05-14-sara-mc-buyer/`. We rename to a real last name as soon as we have one. The goal is scannability of `_cases/`; `unknown-unknown` folders pile up and become indistinguishable.
+
 ---
 
 ## Folder structure

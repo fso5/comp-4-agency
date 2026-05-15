@@ -77,7 +77,9 @@ Diana's team has 4 agents. The default rotation is **round-robin among the three
 - **Inbound to a specific agent's contact info** (e.g. text to Tom's phone, email to Maria's address) → that agent
 - **Diana receives directly** → Diana decides ownership (sometimes she keeps, sometimes she delegates)
 - **Ramping-agent practice** → Jordan gets cold-lead nurture cases for practice (less time-critical, good for voice development)
-- **Specialty fit** → Tom does most condo / townhome work. Maria does most luxury (>$1.2M). Jordan does most first-time-buyer. Diana takes seller-side relocations.
+- **Specialty fit** → Match to the voice cards in `/_shared/agent_voices.md`. Quick reference: Maria — mid-market central ($500k–$1.2M), buyers and sellers. Tom — condos, townhomes, smaller properties, East Austin. Jordan — first-time buyers, nurture sequences, cold-lead practice. Diana — seller-side relocations, anything over $1.2M, anything legal-adjacent, past-client referrals.
+
+If a case straddles two agents' bands (e.g. $1.1M sits at the top of Maria's range and below Diana's), default to the agent whose voice-card specialty section names that case more directly. When still unclear, ask `human:Diana`.
 
 If none of these apply, round-robin. The current rotation pointer lives in Diana's notes (not in this system). When in doubt, ask `human:Diana`.
 
@@ -124,6 +126,12 @@ Initial priority logic:
 - **Phone calls** — the human captures notes and sends to me
 - **Slack from agent ("hey can you look at this")** — direct
 - **Referral from past client** — usually via email or text to Diana
+
+### Chained forwarding (an agent forwards an external message)
+
+Common pattern: Sara DMs the team Instagram; whoever sees it forwards it via Slack to the new hire. In this case I treat the **original source** as the inbound channel (Instagram DM), not Slack. Slack is just the transport. The forwarding agent is captured in `Why this handoff` as "forwarded by <name>" so we know who saw it first.
+
+The agent who forwarded the inbound does NOT count as "having triaged" the case. I still run the orchestrator routing decision tree. If the forwarder pre-suggested a route ("can you handle this — looks like 01 work"), I take that as a hint, not a directive.
 
 ## Edge cases
 

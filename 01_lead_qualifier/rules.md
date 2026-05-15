@@ -51,8 +51,27 @@ If the lead came in via a written channel (website, email, DM) and contains enou
 - Motivation is unclear (the "why now") and qualification.md would benefit from a 10-minute discovery call before research
 - The lead mentioned a specific property (e.g. "we saw 4205 Berkman on Zillow") — Maria may want to gauge interest level before triggering research
 - The lead is ambiguous on intent (could go either buyer or seller)
+- Contact info is incomplete (e.g. Instagram handle only — no phone or email yet)
+- Financing signal is missing and the budget is high enough to make verification load-bearing
 
 The flag goes in the Handoff Packet `What I need back (if anything)` field.
+
+## When the prospect is expecting a reply (initial-reply path)
+
+Sometimes the inbound includes an explicit question — "is this a market you can help us in?", "can we set up a call?", "do you have time this week?" The prospect is waiting for a response.
+
+When this happens, the qualification.md and routing to the human agent are still my work, but I **also flag the need for a draft initial reply** in the Handoff Packet. Two options for how to deliver it:
+
+1. **Bundle a suggested reply into the Handoff Packet to `human:<agent>`** — include a 2–3 line draft in the `What I'm passing forward` section, in the agent's voice if I can manage it (read the voice card; otherwise mark as "rough draft, please voice-match yourself").
+2. **Route a parallel ask to 03_client_communication** — only if the qualification is also already complete and the routing to the human is informational. This is the cleaner path when the agent doesn't need to make a judgment call before replying.
+
+Default is #1 for warm/hot leads (Maria reviews before any reply goes out), #2 for nurture-track cold leads (03 owns the cadence). Either way, the prospect's question doesn't sit unanswered while we triage internally.
+
+## Current location vs. target location
+
+Watch for prospects who mention their current address. If Sara writes "we're renting in Clarksville," that tells us where she lives now — not necessarily where she wants to buy. Default reading: current location is **context**, not a target. Move it to a "Current situation" note inside the qualification.md, not to the location tier list.
+
+Only treat a mentioned location as a target neighborhood if the prospect explicitly says so ("we want to stay in Clarksville," "we're hoping to buy near our current rental"). Otherwise, 02 will spend a research cycle on a neighborhood that isn't actually being shopped.
 
 ## What I never expand into
 
