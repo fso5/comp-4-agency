@@ -1,5 +1,16 @@
 # Diana Lin Realty — Agency System
 
+> **For judges scanning fast — the 90-second path:**
+>
+> 1. Read [`PITCH.md`](PITCH.md) — 60-second pitch + 5-minute cold-tester demo (1 page)
+> 2. Open [`_cases/2026-05-08-anderson-buyer/case.md`](_cases/2026-05-08-anderson-buyer/case.md) — scroll to the 4 Handoff Packets at the bottom — the system run end-to-end on a real Mueller buyer deal
+> 3. Open [`_shared/handoff_packet_spec.md`](_shared/handoff_packet_spec.md) — the typed contract every handoff conforms to (6 required fields, 4 body sections)
+> 4. Skim [`_shared/voice-switcher.md`](_shared/voice-switcher.md) — same email in 4 voices, proves methodology preserves voice difference
+>
+> Read this README in full only if those four files make you want to know more.
+
+---
+
 **A markdown-only AI operating system for a 4-person boutique real estate team. Five specialists coordinate via a Case File spine. Built so the newest agent is operational in a day.**
 
 > Diana's actual frustration: *"When a lead comes in, who responds first depends on who saw the notification. When a property research request goes out, the agent doing it rebuilds the wheel every time. When a deal moves into contract, my newest agent Slacks me at 11pm asking which document needs to go where."*

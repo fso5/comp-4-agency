@@ -12,13 +12,21 @@
 
 ---
 
+## Live URLs
+
+- **Repo:** https://github.com/fso5/comp-4-agency
+- **GitHub Pages site:** https://fso5.github.io/comp-4-agency/ (rendered README as landing page)
+- **60-second pitch:** https://github.com/fso5/comp-4-agency/blob/main/PITCH.md
+- **3-minute video walkthrough:** *(record using LOOM-SCRIPT.md, then paste link here before submitting)*
+
 ## Notes for posting
 
 Comment body for the Skool submission:
 
 ```
 Repo: https://github.com/fso5/comp-4-agency
-Pitch (60-second read): https://github.com/fso5/comp-4-agency/blob/main/PITCH.md
+Site: https://fso5.github.io/comp-4-agency/
+Walkthrough: [Loom link after you record]
 
 [100-word writeup above]
 ```
