@@ -67,6 +67,8 @@ When this happens, the qualification.md and routing to the human agent are still
 
 Default is #1 for warm/hot leads (Maria reviews before any reply goes out), #2 for nurture-track cold leads (03 owns the cadence). Either way, the prospect's question doesn't sit unanswered while we triage internally.
 
+**Real failure mode this rule was written to prevent (caught 2026-05-14):** During cold-agent shakedown, a fresh agent qualified an IG DM that ended with "is this a market you can help us in?" The agent produced a clean qualification.md and routed to human:Maria — but never addressed the prospect's question. There was no rule about prospects expecting a reply. The lead sat unanswered for hours in the test scenario. This section was added so the system always closes the response loop, not just the routing loop.
+
 ## Current location vs. target location
 
 Watch for prospects who mention their current address. If Sara writes "we're renting in Clarksville," that tells us where she lives now — not necessarily where she wants to buy. Default reading: current location is **context**, not a target. Move it to a "Current situation" note inside the qualification.md, not to the location tier list.

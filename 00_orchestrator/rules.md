@@ -133,6 +133,8 @@ Common pattern: Sara DMs the team Instagram; whoever sees it forwards it via Sla
 
 The agent who forwarded the inbound does NOT count as "having triaged" the case. I still run the orchestrator routing decision tree. If the forwarder pre-suggested a route ("can you handle this — looks like 01 work"), I take that as a hint, not a directive.
 
+**Real failure mode this rule was written to prevent (caught 2026-05-14):** During cold-agent shakedown, a fresh agent received a Slack-forwarded Instagram DM and routed to 01 without acknowledging the chained-forwarding pattern. They asked: "should I treat Slack as the channel, or the original IG DM?" The answer wasn't in the rules at that point. This section was added so future agents have a mechanical answer instead of needing to invent one.
+
 ## Edge cases
 
 **Inbound from a past client (>12 months since last close):** Open a new case (per case_file_spec.md). In the new case.md's Snapshot, link the prior case folder. Tag the same `assigned_agent` as the prior deal if they're still on the team.

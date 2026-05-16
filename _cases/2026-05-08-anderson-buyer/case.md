@@ -13,6 +13,14 @@ priority: standard
 
 # Case: Jamie & Pat Anderson — Buyer
 
+> ## 📌 This case IS the receipt.
+>
+> The Anderson case is the system being used end-to-end on a realistic Mueller buyer deal. Every artifact in this folder was produced by the corresponding specialist following its `identity.md` + `rules.md`. Every Handoff Packet below conforms to `_shared/handoff_packet_spec.md`. Every fact has source attribution (ABoR MLS pull dates, TCAD verified, Mueller HOA records, Diana Lin Realty case archive citations).
+>
+> If you're a judge: this is the cold-test demo. Read this `case.md` top to bottom — Stage history, Log, four Handoff Packets at the bottom — and you've seen the system run from website-form-arrived through under-contract.
+>
+> If you're a stranger to the system: same instruction. Read this file before reading anything else.
+
 ## Snapshot
 Out-of-state buyer couple (relocating from Denver) targeting East/Central Austin, $650–750k, owner-occupant. Pre-approved $750k with Cadence Bank. Closed on 1247 Berkman Dr in Mueller at $712k on 5/13. Currently in 7-day option period (expires 5/20 11:59pm). Maria owns the relationship; Pat is the more detail-oriented spouse and prefers email over text.
 

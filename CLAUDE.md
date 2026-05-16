@@ -93,3 +93,5 @@ Voice cards for each are in `_shared/agent_voices.md`. When 03_client_communicat
 ## Attribution
 
 This system is built on the **Interpretable Context Methodology** (Van Clief & McDermott, arXiv:2603.16021) and adopts conventions from the community-shared **ICM Handoff Protocol** at github.com/PUSHINGSQUARES/icm-handoff-protocol. The Case File pattern + structured Handoff Packets are this build's specific implementation of those ideas.
+
+Per Jake Van Clief's **Constraint 06 (Layer Triage) — the 60/30/10 framework**, this system is the **10% layer** (AI judgment). The 60% (MLS, TCAD, DocuSign, Drive) and 30% (Zapier automation — gap, not in this submission) stay in Diana's existing stack. See `_shared/stack-mapping.md` for the full mapping.
